@@ -23,7 +23,11 @@ iron = { version = "*", default-features = false }
 persistent = "0"
 rustc-serialize = "0.3"
 url = "0.5"
-bodyparser = "0.3"
+
+[dependencies.bodyparser]
+git = "https://github.com/iron/body-parser"
+rev = "46ae6c68adb2459cdf96e8f7f05b957938b1fb37"
+
 
 [dependencies.openssl]
 version = "0.7"
